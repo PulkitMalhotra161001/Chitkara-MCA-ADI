@@ -10,4 +10,14 @@ class Solution {
      }  
      return pq.remove();
     }
+
+    // public int findKthLargest(int[] nums, int k) {
+    //     //min
+    //     PriorityQueue<Integer> pq = new PriorityQueue<>();
+    //     for(int i:nums){
+    //         if(pq.size()>=k && i>pq.peek())  pq.remove();
+    //         if(pq.size()<k) pq.add(i);
+    //     }
+    //     return pq.peek();
+    // }
 }

@@ -1,0 +1,14 @@
+Terminologies associated with Binary Trees and Types of Binary Trees
+
+    -   Node: It represents a termination point in a tree.
+    -   Root: A tree’s topmost node. 
+    -   Parent: Each node (apart from the root) in a tree that has at least one sub-node of its own is called a parent node.
+    -   Child: A node that straightway came from a parent node when moving away from the root is the child node.
+    -   Leaf Node: These are external nodes. They are the nodes that have no child.
+    -   Internal Node: As the name suggests, these are inner nodes with at least one child.
+
+Tree Types:
+Full Binary Tree: This is a tree in which every node has either zero children or two children.
+Complete Binary Tree: This is a tree in which all levels are fully filled, except for possibly the last level, which is filled from left to right. 
+Skewed Binary Tree: This is a tree in which all the nodes have only either one child or no child.
+etc.

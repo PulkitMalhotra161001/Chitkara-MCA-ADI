@@ -1,0 +1,19 @@
+Intro:
+It is an unordered collection of objects in which duplicate values cannot be stored.
+
+Syntax:
+Set<Obj> set = new HashSet<Obj> (); 
+
+Methods:
+- add(element)
+- contains(element)
+- isEmpty()
+- remove(element)
+- size()
+etc.
+
+Types:
+- HashSet (The objects are inserted based on their hashcode.)
+- LinkedHashSet (lets us iterate through the elements in the order in which they were inserted.)
+- TreeSet (it stores elements in a sorted format.)
+etc.

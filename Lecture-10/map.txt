@@ -1,0 +1,25 @@
+Terminologies:
+- Key
+- Value
+- Entry
+
+Syntax:
+Map<Key,Value>  map = new HashMap<>();
+
+Some Points:
+- Store Key-Value Pair
+- Unique Values
+- Non-Linear Data Structure
+- Dynamic size
+
+Types:
+- HashMap
+- LinkedHashMap
+- TreeMap
+
+Methods:
+- put(k,v)
+- containsKey(k)
+- remove(k)
+- size()
+- get(k)

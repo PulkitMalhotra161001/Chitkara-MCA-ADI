@@ -1,0 +1,11 @@
+Functions:
+
+- add / push
+- addFirst
+- addLast
+
+- poll / remove
+- pollFirst / removeFirst
+- poolLast / removeLast
+
+Note: remove will give error and poll will give null

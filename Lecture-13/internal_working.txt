@@ -1,0 +1,55 @@
+s.charAt(i) => ASCII value
+accute hash function => s.charAt(i)*31^(n-i)
+
+Default capacity => 16
+Load factor => 0.75
+
+if load factor reaches array size gets double then rehashing. Now chain is smaller and look up time is decreases
+When linked list reaches particular threshold then it convert to Balanced B.T.
+
+
+Object Class:
+
+getClass()
+ - hashCode()
+wait()
+toString()
+notifyall()
+notify()
+finalize()
+ - equals()
+clone()
+
+
+Contract:
+ - 2 objects equals then hashCode same
+ - 2 objects have same hasCode then they may not be equal
+(HashCode narrow up the result for faster searching)
+(If you override one then you must override the other)
+
+Generics Class:
+
+List list = new ArrayList(); // before generics
+list.add(10);
+list.add("100");
+List<Integer> list1 = new ArrayList<Integer>(); // adding generics
+list1.add(10);
+list1.add("100");// compile-time error
+
+
+No need for type-casting while using generics.
+List<String> list = new ArrayList<String>();
+list.add("Adithya");
+String str = list.get(0); // no need of type-casting
+
+class<type>, interface<type>
+
+
+Iterator:
+
+Iterators in Java are used in the Collection framework to retrieve elements one by one. It is a universal iterator as we can apply it to any Collection object. 
+hasNext()
+next()
+remove()
+
+Colections Class:
